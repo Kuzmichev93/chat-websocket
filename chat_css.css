@@ -1,0 +1,67 @@
+html,head,body{
+  width: 100%;
+  height:100%;
+  background: rgba(0,0,0,.4);
+  margin:0;
+  padding:0;
+}
+.main{
+   display: flex;
+   width: 100%;
+   height:100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.window{
+ display: flex;
+ width:700px;
+ min-height:500px;
+ background:darkkhaki;
+ flex-direction: column;
+ box-sizing: border-box;
+}
+
+.windows_top{
+ display: flex;
+ padding:18px;
+ width:100%;
+ height:350px;
+ //background:white;
+ box-sizing: border-box;
+
+}
+.window_messange{
+ width:450px;
+ height:100%;
+ background:white;
+}
+
+.window_list_ip{
+  width:200px;
+  height:100%;
+  background:white;
+  margin-left:15px;
+}
+
+.window_bottom{
+ height:100px;
+ margin:0 18px 0 18px;
+ background:white;
+ box-sizing: border-box;
+}
+
+.ip{
+margin:0;
+padding:0;}
+
+.lis{
+list-style-type: none;
+margin:5px;
+height:20px;
+background:darkgray;
+}
+
+.lis:hover{
+background:darkorange;
+}
